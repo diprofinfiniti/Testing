@@ -1,0 +1,626 @@
+   <!-- ukm.html -->
+   <html>
+    <head>
+       <title>New UKM Student Registration System</title>
+	   <link href="http://www.ukm.my/portal/templates/yoo_explorer/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+     </head>
+     <body  bgcolor="#6699FF">
+	 <h2 align="center">
+	 <img src="ukm.png" />
+	 <p>
+	 <p>
+	 </p>
+      <font size="5">Please Fill all the blank area</font> 
+	   </h2>
+	   
+	      <!-- PERSONAL DETAIL -->
+	   
+	   <font size="5">Personal Detail</font> 
+	   <hr />
+ 
+       <form method = "post" action = "/ukm/ukmServlet">
+        <p>Name <input type = "text" name = "studentName" size = "50">
+           Matric Number <input type = "text" name = "matric" size = "8"><i><sub>i.e: A 123454</sub></i>
+		   I/C Number <input type = "text" name = "ic" size = "14"><i><sub>i.e: 930102-09-4553</sub></i>
+		   <p>
+			Religion<input type = "text" name = "religion" size = "10">
+			Race<input type = "text" name = "race" size = "10">
+			Room Number<input type = "text" name = "room" size = "5"><i><sub>i.e: 9-211</sub></i>
+			Telephone
+           <input type = "text" name = "phone" size = "12"><i><sub>i.e: 012-3456789</sub></i>
+			<p>
+			Last Institution<input type = "text" name = "lastIns" size = "40">
+			<p>
+           Programme
+             <select size = "1" name = "programme" size = "10">
+				<option>Please Select One...</option>
+				<option disabled="yes">FACULTY OF ENGINEERING AND BUILT ENVIRONMENT</option>
+             <option value = "Baclehor of Science Architecture with Honours">Baclehor of Science Architecture with Honours</option>
+			 <option value = "Bachelor of Engineering with Honours (Civil and Environment)">Bachelor of Engineering with Honours (Civil and Environment)</option>
+             <option value = "Bachelor of Engineering with Honours (Civil and Structural)">Bachelor of Engineering with Honours (Civil and Structural)</option>
+             <option value = "Bachelor of Engineering with Honours (Biochemical Engineering)">Bachelor of Engineering with Honours (Biochemical Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Electric and Electronic Engineering)">Bachelor of Engineering with Honours (Electric and Electronic Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Chemical Engineering)">Bachelor of Engineering with Honours (Chemical Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Communications and Computer Engineering)">Bachelor of Engineering with Honours (Communications and Computer Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Mechanical Engineering)">Bachelor of Engineering with Honours (Mechanical Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Microelectronics Engineering)">Bachelor of Engineering with Honours (Microelectronics Engineering)</option>
+             <option value = "Bachelor of Engineering with Honours (Manufacturing Engineering)">Bachelor of Engineering with Honours (Manufacturing Engineering)</option>
+				<option disabled="yes">FACULTY OF EDUCATION</option>
+             <option value = "Bachelor of Education with Honours (Special Education)">Bachelor of Education with Honours (Special Education)</option>
+             <option value = "Bachelor of Education with Honours (Teaching English as Second Language (TESL))">Bachelor of Education with Honours (Teaching English as Second Language (TESL))</option>
+             <option value = "Bachelor of Education with Honours (Sports and Recreations)">Bachelor of Education with Honours (Sports and Recreations)</option>
+				<option disabled="yes">FACULTY OF INFORMATION SCIENCE AND TECHNOLOGY</option>
+             <option value = "Bachelor of Information Technology with Honours (Industrial Computing)">Bachelor of Information Technology with Honours (Industrial Computing)</option>
+             <option value = "Bachelor of Information Technology with Honours (Multimedia Studies)">Bachelor of Information Technology with Honours (Multimedia Studies)</option>
+             <option value = "Bachelor of Information Technology with Honours (Science and System Management)">Bachelor of Information Technology with Honours (Science and System Management)</option>
+             <option value = "Bachelor of Information Technology with Honours (Computer Science)">Bachelor of Information Technology with Honours (Computer Science)</option>
+				<option disabled="yes">FACULTY OF LAW</option>
+             <option value = "Bachelor of Law with Honours">Bachelor of Law with Honours</option>
+				<option disabled="yes">FACULTY OF SCIENCE AND TECHNOLOGY</option>
+             <option value = "Bachelor of Science with Honours (Biochemistry)">Bachelor of Science with Honours (Biochemistry)</option>
+             <option value = "Bachelor of Science with Honours (Biology)">Bachelor of Science with Honours (Biology)</option>
+             <option value = "Bachelor of Science with Honours (Plant Biotechnology)">Bachelor of Science with Honours (Plant Biotechnology)</option>
+             <option value = "Bachelor of Science with Honours (Biotechnology with Management)">Bachelor of Science with Honours (Biotechnology with Management)</option>
+             <option value = "Bachelor of Science with Honours (Physics)">Bachelor of Science with Honours (Physics)</option>
+             <option value = "Bachelor of Science with Honours (Genetics)">Bachelor of Science with Honours (Genetics)</option>
+             <option value = "Bachelor of Science with Honours (Geology)">Bachelor of Science with Honours (Geology)</option>
+             <option value = "Bachelor of Science with Honours (Chemistry)">Bachelor of Science with Honours (Chemistry)</option>
+             <option value = "Bachelor of Science with Honours (Mathematics)">Bachelor of Science with Honours (Mathematics)</option>
+             <option value = "Bachelor of Science with Honours (Microbiology)">Bachelor of Science with Honours (Microbiology)</option>
+             <option value = "Bachelor of Science with Honours (Oleochemical)">Bachelor of Science with Honours (Oleochemical)</option>
+             <option value = "Bachelor of Science with Honours (Actuarial Science)">Bachelor of Science with Honours (Actuarial Science)</option>
+             <option value = "Bachelor of Science with Honours (Material Science)">Bachelor of Science with Honours (Material Science)</option>
+             <option value = "Bachelor of Science with Honours (Marine Science)">Bachelor of Science with Honours (Marine Science)</option>
+             <option value = "Bachelor of Science with Honours (Food Science and Dietetics)">Bachelor of Science with Honours (Food Science and Dietetics)</option>
+             <option value = "Bachelor of Science with Honours (Food Science with Business Management)">Bachelor of Science with Honours (Food Science with Business Management)</option>
+             <option value = "Bachelor of Science with Honours (Science Nuclear)">Bachelor of Science with Honours (Science Nuclear)</option>
+             <option value = "Bachelor of Science with Honours (Environmental Science)">Bachelor of Science with Honours (Environmental Science)</option>
+             <option value = "3Bachelor of Science with Honours (Statistics)">Bachelor of Science with Honours (Statistics)</option>
+             <option value = "Bachelor of Science with Honours (Chemical Technology)">Bachelor of Science with Honours (Chemical Technology)</option>
+             <option value = "Bachelor of Science with Honours (Bioinformatics)">Bachelor of Science with Honours (Bioinformatics)</option>
+             <option value = "Bachelor of Science with Honours (Zoology)">Bachelor of Science with Honours (Zoology)</option>
+				<option disabled="yes">FACULTY OF SCIENCE SOCIAL AND HUMANITIES</option>
+             <option value = "Bachelor of Social Sciences with Honours (Geography)">Bachelor of Social Sciences with Honours (Geography)</option>
+             <option value = "Bachelor of Social Sciences with Honours (Social Work)">Bachelor of Social Sciences with Honours (Social Work)</option>
+             <option value = "Bachelor of Social Sciences with Honours (Media Communications)">Bachelor of Social Sciences with Honours (Media Communications)</option>
+             <option value = "achelor of Social Sciences with Honours (Linguistik)">Bachelor of Social Sciences with Honours (Linguistik)</option>
+             <option value = "Bachelor of Social Sciences with Honours (Developmental Science)">Bachelor of Social Sciences with Honours (Developmental Science)</option>
+             <option value = "Bachelor of Social Sciences with Honours (Political Science)">Bachelor of Social Sciences with Honours (Political Science)</option>
+             <option value = "Bachelor of Arts with Honours (English Language Studies)">Bachelor of Arts with Honours (English Language Studies)</option>
+			 <option value = "Bachelor of Arts with Honours (Malay Language Studies)">Bachelor of Arts with Honours (Malay Language Studies)</option>
+			 <option value = "Bachelor of Arts with Honours (Malay Letters)">Bachelor of Arts with Honours (Malay Letters)</option>	
+			 <option value = "Bachelor of Arts with Honours (History)">Bachelor of Arts with Honours (History)</option>	
+				<option disabled="yes">FACULTY OF ECONOMICS AND MANAGEMENT</option>	
+			 <option value = "Bachelor of Economic with Honours">Bachelor of Economic with Honours</option>	
+			 <option value = "Bachelor of Business Management with Honours">Bachelor of Business Management with Honours</option>	
+			 <option value = "Bachelor of Accounting with Honours">Bachelor of Accounting with Honours</option>	
+				<option disabled="yes">FACULTY OF ISLAMIC STUDIES</option>	
+			 <option value = "Bachelor of Islamic Studies with Honours (Arabic Studies and Islamic Civilization)">Bachelor of Islamic Studies with Honours (Arabic Studies and Islamic Civilization)</option>	
+			 <option value = "Bachelor of Islamic Studies with Honours (Al-Quran and Al-Sunnah Studies)">Bachelor of Islamic Studies with Honours (Al-Quran and Al-Sunnah Studies)</option>	
+			 <option value = "Bachelor of Islamic Studies with Honours (Islamic Missionary and Leadership Studies)">Bachelor of Islamic Studies with Honours (Islamic Missionary and Leadership Studies)</option>	
+			 <option value = "Bachelor of Islamic Studies with Honours (Shariah)">Bachelor of Islamic Studies with Honours (Shariah)</option>	
+			 <option value = "Bachelor of Islamic Studies with Honours (Theology and Philosophy)">Bachelor of Islamic Studies with Honours (Theology and Philosophy)</option>				 
+           </select>
+         
+		   Email
+           <input type = "text" name = "email" size = "50">
+        </p>
+        <p>Street <input type = "text" name = "street" size = "50">
+        </p>
+        <p>City <input type = "text" name = "city" size = "23">
+           State
+           <input type = "text" name = "state" size = "30">
+           Zip <input type = "text" name = "zip" size = "9">
+		   </p>
+		<hr />
+			<br />
+			<br />
+		   
+		   
+	   <!-- CURRICULAR EXPERIENCE -->	   
+	   
+	   <font size="5">Curricular Experience</font><i><sub>*At Least One</sub></i> 
+		   
+		   <hr />
+				<p>
+				
+								<!-- ASSOCIATION/CLUB -->	   
+				<table border="1">
+					  <tr>
+						<td  bgcolor="silver">
+						  <ul>
+							<b>ASSOCIATION/CLUB</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>YEAR</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>POSITION</b>
+						  </ul>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "cclub1" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "cyear1" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "cposition1" size = "25">
+						</td>
+					  </tr>
+					  	<tr>
+						<td>
+						  <input type = "text" name = "cclub2" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "cyear2" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "cposition2" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "cclub3" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "cyear3" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "cposition3" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "cclub4" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "cyear4" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "cposition4" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "cclub5" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "cyear5" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "cposition5" size = "25">
+						</td>
+					  </tr>
+					  
+					</table>
+					
+					<br />
+		   
+				<!-- ACTIVITIES INVOLVED IN -->	   
+				
+				<p>
+				<table border="1">
+					  <tr>
+						<td  bgcolor="silver">
+						  <ul>
+							<b>ACTIVITIES INVOLVED IN</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>YEAR</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>INVOLVEMENT LEVEL</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>ACHIEVEMENT</b>
+						  </ul>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "ac1" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "acyear1" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "invol1" size = "30">
+						</td>
+						<td>
+						 <input type = "text" name = "ach1" size = "25">
+						</td>
+					  </tr>
+					  	<tr>
+						<td>
+						  <input type = "text" name = "ac2" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "acyear2" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "invol2" size = "30">
+						</td>
+						<td>
+						 <input type = "text" name = "ach2" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "ac3" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "acyear3" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "invol3" size = "30">
+						</td>
+						<td>
+						 <input type = "text" name = "ach3" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "ac4" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "acyear4" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "invol4" size = "30">
+						</td>
+						<td>
+						 <input type = "text" name = "ach4" size = "25">
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "ac5" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "acyear5" size = "12">
+						</td>
+						<td>
+						 <input type = "text" name = "invol5" size = "30">
+						</td>
+						<td>
+						 <input type = "text" name = "ach5" size = "25">
+						</td>
+					  </tr>
+					</table>
+					<br / >
+					<br / >
+					
+					<!-- AWARDS RECEIVED -->	   
+				<table border="1">
+					  <tr>
+						<td  bgcolor="silver">
+						  <ul>
+							<b>AWARDS RECEIVED</b>
+						  </ul>
+						</td>
+						<td bgcolor="silver">
+						  <ul>
+							<b>YEAR</b>
+						  </ul>
+						</td>
+					  </tr>
+					  <tr>
+						<td>
+						  <input type = "text" name = "awa1" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "awayear1" size = "12">
+						</td>
+					  </tr>
+					  	<tr>
+						<td>
+						  <input type = "text" name = "awa2" size = "45">
+						</td>
+						<td>
+						 <input type = "text" name = "awayear2" size = "12">
+						</td>
+					  </tr>
+					 </table>
+		   <hr />
+		   <br />
+		   <br />
+		   
+	<font size="5">Skill & Mastery</font><hr /><br />
+	
+				<!-- COMPUTER SKILLS -->	   
+	
+			<font size="4">Computer Skills</font><br />
+				
+				<p>
+				<table style="text-align: center; width: 70%;" border="1" cellpadding="2" cellspacing="2">
+					  <tbody>
+						<tr>
+						  <td colspan="1" rowspan="2" bgcolor="silver">SOFTWARE</td>
+						  <td colspan="3" rowspan="1" bgcolor="silver">SKILLS LEVEL</td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">VERY GOOD</td>
+						  <td bgcolor="silver">GOOD</td>
+						  <td bgcolor="silver">FAIR</td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">MICROSOFT OFFICE</td>
+						  <td bgcolor="white"><input type="radio" name="001" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="002" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="003" value="FAIR" /></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">ADOBE PHOTODSHOP</td>
+						  <td bgcolor="white"><input type="radio" name="004" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="005" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="006" value="FAIR" /></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">ADOBE ILLUSTRATOR</td>
+						  <td bgcolor="white"><input type="radio" name="007" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="008" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="009" value="FAIR" /></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">ADOBE FLASH PLAYER</td>
+						  <td bgcolor="white"><input type="radio" name="010" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="011" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="012" value="FAIR" /></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">EDITTING VIDEO</td>
+						  <td bgcolor="white"><input type="radio" name="013" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="014" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="015" value="FAIR" /></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">OTHERS (EXPLAIN: <input type = "text" name = "explainSkill" size = "20"></td>
+						  <td bgcolor="white"><input type="radio" name="016" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="017" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="018" value="FAIR" /></td>
+						</tr>
+					  </tbody>
+					</table>
+					<br><br />
+			
+			<!-- LANGUAGE PROFICIENCY -->	   
+	
+			<font size="4">Language Proficiency</font><br />
+				<p>		
+				<table style="text-align: center; width: 70%;" border="1" cellpadding="2" cellspacing="2">
+					  <tbody>
+						<tr>
+						  <td colspan="1" rowspan="2" bgcolor="silver">BAHASA</td>
+						  <td colspan="3" rowspan="1" bgcolor="silver">PROFICIENCY LEVEL</td>
+						  <td colspan="1" rowspan="2" bgcolor="silver">SPM/MUET<P>STPM/STAM</td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">VERY GOOD</td>
+						  <td bgcolor="silver">GOOD</td>
+						  <td bgcolor="silver">FAIR</td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">BAHASA</td>
+						  <td bgcolor="white"><input type="radio" name="a1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="a2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="a3" value="FAIR" /><br /></td>
+						  <td bgcolor="white"><select name="selectionFieldBahasa"> 
+																		  <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">ENGLISH</td>
+						  <td bgcolor="white"><input type="radio" name="b1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="b2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="b3" value="FAIR" /><br /></td>
+						 <td bgcolor="white"><select name="selectionFieldEnglish"> 
+																		  <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">ARAB</td>
+						  <td bgcolor="white"><input type="radio" name="c1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="c2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="c3" value="FAIR" /><br /></td>
+						  <td bgcolor="white"><select name="selectionFieldArab">
+																		  <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">MANDARIN</td>
+						  <td bgcolor="white"><input type="radio" name="d1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="d2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="d3" value="FAIR" /><br /></td>
+						  <td bgcolor="white"><select name="selectionFieldMandirin"> 
+																		  <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">TAMIL</td>
+						  <td bgcolor="white"><input type="radio" name="e1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="e2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="e3" value="FAIR" /><br /></td>
+						  <td bgcolor="white"><select name="selectionFieldTamil">
+																		  <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+						<tr>
+						  <td bgcolor="silver">OTHERS (EXPLAIN: <input type = "text" name = "explainLan" size = "20"></td>
+						  <td bgcolor="white"><input type="radio" name="f1" value="VERY GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="f2" value="GOOD" /><br /></td>
+						  <td bgcolor="white"><input type="radio" name="f3" value="FAIR" /><br /></td>
+						  <td bgcolor="white"><select name="selectionFieldOther"> 
+																	      <option >Null</option>
+																		  <option value="A" >A </option>
+																		  <option value="A-" >A-</option>
+																		  <option value="B+" >B+</option>
+																		  <option value="B" >B </option>
+																		  <option value="B-" >B-</option>
+																		  <option value="C+" >C+</option>
+																		  <option value="C" >C </option>
+																		  <option value="C-" >C-</option>
+																		  <option value="D" >D</option>
+																		</select></td>
+						</tr>
+					  </tbody>
+					</table>
+					<br>
+					<br />
+					<br />
+					
+			<!-- Student Welfare Committee(JAKSA) Secretariat Choices -->
+			
+		   <font size="5">Student Welfare Committee(JAKSA) Secretariat Choices</font> 
+		   <hr />
+		   <br />
+				<table style="text-align: center; width: 30%;" border="1" cellpadding="2" cellspacing="2">
+				  <tbody>
+					<tr>
+					  <td bgcolor="silver" colspan="2" rowspan="1"><font size="4">Please Select at least THREE choices</font></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Vice President of YDP 1</td>
+					  <td bgcolor="white"><input type="checkbox" name="vice1"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Vice President of YDP 2</td>
+					  <td bgcolor="white"><input type="checkbox" name="vice2"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Welfare & Counseling</td>
+					  <td bgcolor="white"><input type="checkbox" name="counseling"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Spiritual</td>
+					  <td bgcolor="white"><input type="checkbox" name="spiritual"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Academic</td>
+					  <td bgcolor="white"><input type="checkbox" name="academic"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Student Affairs (Girls)</td>
+					  <td bgcolor="white"><input type="checkbox" name="affairs"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Sports & Recreation</td>
+					  <td bgcolor="white"><input type="checkbox" name="sports"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Entrepreneurship</td>
+					  <td bgcolor="white"><input type="checkbox" name="entrepreneurship"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Culture</td>
+					  <td bgcolor="white"><input type="checkbox" name="culture"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of ICT & Publishing</td>
+					  <td bgcolor="white"><input type="checkbox" name="ict"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Integration & Racial Unity</td>
+					  <td bgcolor="white"><input type="checkbox" name="integration"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Research & Innovation</td>
+					  <td bgcolor="white"><input type="checkbox" name="research"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Security & Special Tasks</td>
+					  <td bgcolor="white"><input type="checkbox" name="security"/><br /></td>
+					</tr>
+					<tr>
+					  <td bgcolor="silver">Exco of Alumni Relations</td>
+					  <td bgcolor="white"><input type="checkbox" name="alumni"/><br /></td>
+					</tr>
+				  </tbody>
+				</table>
+				<br>
+				
+		   <hr />
+		   	<br />
+
+
+
+        <p align="center"><input type = "submit" name = "Submit" value = "Submit">
+           <input type = "reset" value = "Reset">
+        </p>  
+
+
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<br />
+			<hr />
+			<hr />
+			<p align="center">Build and maintain by A134651 Mohd Ilhamidi Bin Shafei</p>
+			<p align="center">Copyright © DiProfInfiniT Corporate Sdn. Bhd</p>
+			<p align="center">Tel:014-5131028 | Last Update: 3 Mac 2012</p>
+			<hr />
+			<hr />
+	 
+    </body>
+  </html>

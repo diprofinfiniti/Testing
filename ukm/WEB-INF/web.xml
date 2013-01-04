@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+    Document   : web.xml
+    Created on : 2012/6/24
+    Author     : 
+    Description:
+        Purpose of the document follows.
+-->
+
+<web-app>
+  
+  <servlet>
+     <servlet-name>ukmServlet</servlet-name>
+     <servlet-class>ukmServlet</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+     <servlet-name>ukmServlet</servlet-name>
+     <url-pattern>/ukmServlet</url-pattern>
+  </servlet-mapping>
+  
+  <servlet>
+     <servlet-name>ukmServlet2</servlet-name>
+     <servlet-class>ukmServlet2</servlet-class>
+  </servlet>
+
+  <servlet-mapping>
+     <servlet-name>ukmServlet2</servlet-name>
+     <url-pattern>/ukmServlet2</url-pattern>
+  </servlet-mapping>  
+    
+</web-app>
+
